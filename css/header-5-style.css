@@ -1,0 +1,57 @@
+/*
+The Purpose of the Stylesheet is to add the styling to "header-5"
+@ version 0.0.1
+*/
+
+/*
+	Created on : <27nd-Aug-2019>
+    Author     : <csk>
+*/
+
+/* Table of Content
+
+	1.	Menu
+	2.  Banner
+
+*/
+.open-sans {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.bold-cls {
+	font-weight: bold;
+}
+
+.italic-cls {
+	font-style: italic;
+}
+
+.menuDiv{
+	position: fixed;
+	top: 100px;
+	right: 0;
+	width: 8%;
+	text-align: center;
+	z-index: 999;
+}
+.side-nav{
+	height: 100%;
+	width: 0px;
+	position: fixed;
+	z-index: 1;
+	top: 100px;
+	right: 0;
+	overflow-x: hidden;
+	background-color: #fff;
+	transition: 0.5s;
+	padding-top: 60px;
+	background-color: #000;
+}
+		
+.side-nav .close-btn{
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
